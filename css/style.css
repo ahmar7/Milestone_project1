@@ -1,0 +1,191 @@
+body {
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+nav {
+  background-color: gray;
+
+
+}
+
+.float-heading {
+  float: left;
+}
+
+.home-footer {
+  position: static !important;
+}
+
+.home-video {
+  height: 400px;
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+
+  font-size: 1.2em;
+  line-height: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 2%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+
+}
+
+.below-margin {
+  padding-bottom: 150px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: rgb(248, 12, 12);
+}
+
+.fa {
+  padding: 18px;
+  font-size: 28px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #4e5564;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+footer {
+  height: 110px;
+  margin-top: 110px !important;
+  background-color: gray;
+  padding: 1.2em;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.newsletter-input {
+  padding: 5px () 10px;
+  border-radius: 8px;
+  border: 1px solid chocolate;
+  outline: none;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.Paragraph1 {
+  /* width: 500px; */
+  padding: 0 250px !important;
+}
+
+.picture-heading {
+  margin: 10px 0;
+}
+.social-icons{
+  display: inline;
+}
+@media (max-width:950px) {
+  .Paragraph1 {
+      /* width: 500px; */
+      padding: 0 30px !important;
+  }
+
+}
+
+@media (max-width:900px) {
+  .img-with-text img {
+      width: 100%;
+      height: auto;
+  }
+
+}
+
+@media (max-width:500px) {
+
+ .social-icons{
+   display: flex;
+   text-align: center;
+   margin: 10px 0;
+   justify-content: center;
+  }
+  .social-icons .fa{
+
+margin: 0 5px;
+  }
+  footer{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .photos-footer{
+    position: static;
+    height: auto;
+    margin:0 !important
+  }
+  .below-margin{
+    padding-bottom: 0;
+  }
+}
+@media (max-width:470px) {
+  .main-heading {
+      font-size: 1.2rem;
+  }
+  nav li{
+font-size: 1rem;  }
+}
+
+@media (max-width:400px) {
+  .Paragraph1 {
+      display: none;
+  }
+
+  .main-heading {
+      font-size: 1rem;
+  }
+
+}
